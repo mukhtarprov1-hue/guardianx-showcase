@@ -1,70 +1,99 @@
-# <img src="assets/logo.png" width="45" align="center"> GuardianX: Next-Gen Android Security Intelligence
+<p align="center">
+  <img src="assets/logo.png" width="120" alt="GuardianX Logo">
+</p>
+
+<h1 align="center">🛡️ GuardianX: The Sentinel of Android Security</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Release-v2.5.0-blue?style=for-the-badge&logo=github" alt="Release">
-  <img src="https://img.shields.io/badge/Platform-Android_14+-green?style=for-the-badge&logo=android" alt="Platform">
-  <img src="https://img.shields.io/badge/Security-YARA_Inside-red?style=for-the-badge&logo=shield" alt="Security">
-  <img src="https://img.shields.io/badge/Language-Java%20%7C%20C%2B%2B-orange?style=for-the-badge" alt="Languages">
+  <strong>An Intelligent, Multi-Layered Threat Intelligence & Forensic System for Modern Mobile Environments.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Release-v2.5.0-0078D4?style=for-the-badge&logo=github" alt="Release">
+  <img src="https://img.shields.io/badge/Platform-Android_14+-3DDC84?style=for-the-badge&logo=android" alt="Platform">
+  <img src="https://img.shields.io/badge/Security-YARA_Certified-red?style=for-the-badge&logo=shield" alt="Security">
+  <img src="https://img.shields.io/badge/AI-ONNX_Runtime-5B2D90?style=for-the-badge&logo=ai" alt="AI">
 </p>
 
 ---
 
-## 🛡️ الرؤية الاستراتيجية (Project Vision)
-**GuardianX** ليس مجرد تطبيق مضاد فيروسات تقليدي؛ إنه منظومة أمنية متكاملة تعتمد على الاستخبارات التقنية لحماية المستخدم في بيئة سيبرانية معقدة. تم تطويره ليكون الدرع الرقمي الأول الذي يجمع بين قوة المحركات الأصلية (Native Engines) وذكاء النمذجة الرياضية.
+## 📖 Overview
+**GuardianX** is not just an application; it's a comprehensive security infrastructure designed to combat the evolving landscape of mobile threats. Developed as a high-end graduation project, it integrates **Native C++ Forensics**, **Heuristic Risk Engines**, and **Deep Learning** to provide a zero-compromise security experience.
 
-> **Note**: This repository serves as a **Technical Showcase** and **Project Documentation Hub**. The source code is maintained in a private secure perimeter.
-
----
-
-## 🚀 المحاور التقنية المتطورة (Technical Pillars)
-
-### 🧠 1. محرك تحليل المخاطر (Heuristic Risk Engine)
-يستخدم GuardianX خوارزمية **Multi-Vector Assessment** التي لا تعتمد على تواقيع الفيروسات فقط، بل تحلل:
-*   **Behavioral Synergy**: اكتشاف التنسيق المريب بين الأذونات (مثل وصول تطبيق آلة حاسبة لسجل المكالمات والإنترنت).
-*   **Origin Trust Analysis**: تقييم موثوقية مصدر التثبيت وشهادات التوقيع الرقمي.
-
-### 🌐 2. منظومة حماية الروابط بـ 7 طبقات (7-Layer URL Intelligence)
-نظام دفاعي فريد لفحص الروابط يتكون من:
-1.  **Temporal Domain Check**: فحص عمر النطاق ومصداقيته التاريخية.
-2.  **AI Pattern Recognition**: استخدام نموذج **ONNX** محلي لتحليل بنية الرابط في الأجزاء من الثانية.
-3.  **Cross-Check Engine**: تكامل حي مع **VirusTotal API** للاستفادة من 90+ قاعدة بيانات عالمية.
-
-### 🔍 3. فحص الملفات العميق (Native YARA Forensics)
-دمج محرك **YARA** الأسطوري بلغة **C++** مباشرة عبر **JNI**، مما يمنح التطبيق قدرة على:
-*   **Byte-Level Scanning**: فحص الملفات بحثاً عن أنماط برمجية خبيثة لا تكتشفها الماسحات التقليدية.
-*   **Specialized Modules**: وحدات مخصصة لملفات الأوفيس و الـ PDF لكشف الثغرات المستغلة (Exploits).
+> 🔒 **Security Notice**: This repository acts as a **Technical Showcase**. The proprietary source code is hosted in a private, encrypted environment to protect intellectual property.
 
 ---
 
-## 📊 مركز التوثيق والتقارير (Showcase Assets)
+## 📱 Visual Experience
+<p align="center">
+  <img src="assets/screenshots/scan_main.jpg" width="30%" alt="Main Scanner">
+  <img src="assets/screenshots/reports.jpg" width="30%" alt="Analytics Dashboard">
+</p>
 
-تم تنظيم المستودع ليعكس الشفافية والاحترافية في التوثيق:
+---
 
-| المجلد | المحتوى | الوصف |
+## 🚀 Core Capabilities (The Pillars)
+
+### 🧠 1. Heuristic Risk Assessment
+Our custom **RiskEngine** performs multi-vector analysis on applications:
+*   **Behavioral Auditing**: Detects dangerous permission combinations (e.g., Camera + SMS + Internet).
+*   **Sideload Verification**: Identifies apps installed outside of official stores.
+*   **Component Inspection**: Scans background services and receivers for hidden activities.
+
+### 🌐 2. 7-Layer URL Intelligence
+A military-grade scanning pipeline for links and phishing attempts:
+1.  **Metadata Check**: Analyzing domain age and registration patterns.
+2.  **AI Analysis**: Utilizing a local **ONNX model** to inspect 43 structural URL features.
+3.  **Cloud Sync**: Live validation via **VirusTotal API** (leveraging 90+ global scanners).
+
+### 🔍 3. Deep File Forensics (YARA Integration)
+We've ported the world-renowned **YARA Engine** to Android using **C++20**:
+*   **Static Pattern Matching**: Finding malware signatures at the byte level.
+*   **Specialized Forensic Modules**: Deep inspection of Office, PDF, and Image files.
+
+---
+
+## 🛠️ System Architecture & Logic
+
+### 🔄 Algorithm Workflows
+<p align="center">
+  <img src="assets/screenshots/risk_flow.png" width="45%" alt="Risk Logic">
+  <img src="assets/screenshots/file_algo.png" width="45%" alt="File Algorithm">
+</p>
+
+<details>
+<summary><b>📐 Technical Stack 2026</b></summary>
+
+- **Language**: Java 21, C++20 (JNI)
+- **AI Framework**: ONNX Runtime Mobile
+- **Forensics**: LibYara Native
+- **Storage**: SQLCipher / Room (Local Encryption)
+- **Architecture**: Clean Architecture / MVVM
+</details>
+
+---
+
+## 📂 Project Resources
+
+| Category | Link | Description |
 | :--- | :--- | :--- |
-| [**docs/**](docs/) | **Technical Whitepapers** | وثائق معمارية النظام، تصميم قواعد البيانات، ومنطق المحرك الأمني. |
-| [**reports/**](reports/) | **Official Project Reports** | التقارير الأكاديمية والتقنية الشاملة بصيغ PDF و Microsoft Word. |
-| [**assets/**](assets/) | **Visual Brand Assets** | شعارات المشروع وعناصر الهوية البصرية. |
+| **Documentation** | [📚 Technical Docs](docs/) | Architecture, ERD, and Security Engine logic. |
+| **Reports** | [📄 Official Reports](reports/) | Comprehensive PDF & Word project reports. |
+| **Assets** | [🖼️ Branding](assets/) | Brand identity and UI elements. |
 
 ---
 
-## 🛠️ البنية التحتية للمشروع (Tech Stack 2026)
-
-*   **Core**: Android SDK (Targeting API 35+)
-*   **Native Layer**: C++20 with CMake
-*   **AI/ML**: ONNX Runtime Mobile
-*   **Database**: Room Persistence (Encrypted)
-*   **UI/UX**: Material 3 / Glassmorphism
-*   **Architecture**: MVVM (Model-View-ViewModel)
+## 👤 Development Team
+**Lead Architect**: Mukhtar Alawady
+**Focus**: Mobile Security, Malware Analysis, and AI Integration.
 
 ---
 
-## 🔐 معايير الخصوصية (Privacy Standards)
-يلتزم GuardianX بأعلى معايير الخصوصية الرقمية؛ حيث تتم كافة عمليات التحليل الذكي (AI Analysis) وفحص ملفات YARA **محلياً على جهاز المستخدم** دون إرسال بيانات خاصة إلى السحاب، مما يضمن أماناً بنسبة 100% ضد تسريب البيانات.
+<p align="center">
+  <b>GuardianX Pro</b> • Protecting your Digital Frontier in 2026 and Beyond.
+</p>
 
----
-
-<div align="center">
-  <p><b>GuardianX Pro Project</b> - Securing the Digital Frontier</p>
-  <p>© 2026 GuardianX Security Team. All Rights Reserved.</p>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg" alt="Maintained">
+  <img src="https://img.shields.io/badge/Security%20Score-100%25-brightgreen.svg" alt="Security Score">
+</p>
