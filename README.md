@@ -1,68 +1,70 @@
-# GuardianX (جارديان إكس) 🛡️
-
-[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
-[![Status](https://img.shields.io/badge/Status-Project_Completed-blue.svg)]()
-
-**GuardianX** هو حل أمني متطور وشامل لنظام الأندرويد، مصمم لحماية الخصوصية الرقمية ومكافحة التهديدات السيبرانية الحديثة مثل برمجيات التجسس، التصيد الاحتيالي، وتسريب البيانات.
+# <img src="assets/logo.png" width="45" align="center"> GuardianX: Next-Gen Android Security Intelligence
 
 <p align="center">
-  <img src="assets/logo.png" width="200" alt="GuardianX Logo">
+  <img src="https://img.shields.io/badge/Release-v2.5.0-blue?style=for-the-badge&logo=github" alt="Release">
+  <img src="https://img.shields.io/badge/Platform-Android_14+-green?style=for-the-badge&logo=android" alt="Platform">
+  <img src="https://img.shields.io/badge/Security-YARA_Inside-red?style=for-the-badge&logo=shield" alt="Security">
+  <img src="https://img.shields.io/badge/Language-Java%20%7C%20C%2B%2B-orange?style=for-the-badge" alt="Languages">
 </p>
 
 ---
 
-## 🌟 المميزات الرئيسية (Key Features)
+## 🛡️ الرؤية الاستراتيجية (Project Vision)
+**GuardianX** ليس مجرد تطبيق مضاد فيروسات تقليدي؛ إنه منظومة أمنية متكاملة تعتمد على الاستخبارات التقنية لحماية المستخدم في بيئة سيبرانية معقدة. تم تطويره ليكون الدرع الرقمي الأول الذي يجمع بين قوة المحركات الأصلية (Native Engines) وذكاء النمذجة الرياضية.
 
-### 1. محرك تحليل المخاطر الذكي (Risk Engine)
-يعتمد التطبيق على خوارزمية متطورة لتقييم أمان التطبيقات المثبتة بناءً على:
-- **تحليل الأذونات**: الكشف عن مجموعات الأذونات الخطيرة (مثل الكاميرا + الميكروفون + الإنترنت).
-- **مصدر التطبيق**: التمييز بين التطبيقات الموثوقة (Google Play) والتطبيقات المحملة جانبياً (Sideloaded).
-- **تحليل المكونات**: فحص الخدمات والمستقبلات الخلفية (Receivers) لأي سلوك مريب.
-
-### 2. نظام حماية الروابط بـ 7 طبقات (7-Layer URL Scanner)
-أقوى نظام فحص روابط للهواتف المحمولة يتضمن:
-- **الذكاء الاصطناعي (AI)**: استخدام نموذج ONNX محلي لتحليل 43 ميزة في الرابط.
-- **تكامل مع VirusTotal**: فحص الروابط عبر أكثر من 90 محرك مكافحة فيروسات عالمي.
-- **تحليل HTML**: فحص محتوى الصفحة للتأكد من خلوها من نماذج التصيد.
-
-### 3. محرك YARA لفحص الملفات (Native File Forensic)
-دمج محرك YARA العالمي باستخدام لغة **C++** لفحص ملفات النظام بعمق وسرعة عالية، مع وحدات متخصصة لفحص:
-- ملفات الـ **Office** (وورد، إكسل، بوربوينت) من الماكرو الخبيث.
-- ملفات الـ **PDF** من الأكواد البرمجية المخفية.
-
-### 4. الخزنة الرقمية المؤمنة (Secure Vault)
-بيئة مشفرة محمية بكلمة مرور لتخزين الملفات الحساسة بعيداً عن متناول التطبيقات الأخرى.
-
-### 5. تقارير أمنية بصرية (Visual Analytics)
-لوحة بيانات تفاعلية تعرض إحصائيات الأمان، عدد التهديدات المكتشفة، وتطور حالة أمان الجهاز عبر الزمن.
+> **Note**: This repository serves as a **Technical Showcase** and **Project Documentation Hub**. The source code is maintained in a private secure perimeter.
 
 ---
 
-## 🏗️ البنية التكنولوجية (Technology Stack)
+## 🚀 المحاور التقنية المتطورة (Technical Pillars)
 
-- **Language**: Java & C++ (JNI)
-- **Framework**: Android SDK
-- **Security Engine**: YARA (Native Implementation)
-- **AI/ML**: ONNX Runtime (Local Model Execution)
-- **Database**: SQLite (Room Persistence Library)
-- **UI/UX**: Material Design 3 (Glassmorphism Effects)
+### 🧠 1. محرك تحليل المخاطر (Heuristic Risk Engine)
+يستخدم GuardianX خوارزمية **Multi-Vector Assessment** التي لا تعتمد على تواقيع الفيروسات فقط، بل تحلل:
+*   **Behavioral Synergy**: اكتشاف التنسيق المريب بين الأذونات (مثل وصول تطبيق آلة حاسبة لسجل المكالمات والإنترنت).
+*   **Origin Trust Analysis**: تقييم موثوقية مصدر التثبيت وشهادات التوقيع الرقمي.
 
----
+### 🌐 2. منظومة حماية الروابط بـ 7 طبقات (7-Layer URL Intelligence)
+نظام دفاعي فريد لفحص الروابط يتكون من:
+1.  **Temporal Domain Check**: فحص عمر النطاق ومصداقيته التاريخية.
+2.  **AI Pattern Recognition**: استخدام نموذج **ONNX** محلي لتحليل بنية الرابط في الأجزاء من الثانية.
+3.  **Cross-Check Engine**: تكامل حي مع **VirusTotal API** للاستفادة من 90+ قاعدة بيانات عالمية.
 
-## 📄 التوثيق والتقارير (Documentation)
-
-يمكنك العثور على تفاصيل نظرية وتوثيق كامل للمشروع في المجلدات التالية:
-- [**docs/**](docs/): يحتوي على فصول البحث، معمارية النظام، وتفاصيل المحرك الأمني.
-- [**reports/**](reports/): يحتوي على التقارير الرسمية بصيغ PDF و Word.
-
----
-
-## 🔒 ملاحظة حول الكود المصدري
-هذا المستودع مخصص لعرض **الجانب النظري والتقني** للمشروع. الكود المصدري (Source Code) محفوظ في مستودع خاص لدواعي أمنية وحقوق الملكية الفكرية.
+### 🔍 3. فحص الملفات العميق (Native YARA Forensics)
+دمج محرك **YARA** الأسطوري بلغة **C++** مباشرة عبر **JNI**، مما يمنح التطبيق قدرة على:
+*   **Byte-Level Scanning**: فحص الملفات بحثاً عن أنماط برمجية خبيثة لا تكتشفها الماسحات التقليدية.
+*   **Specialized Modules**: وحدات مخصصة لملفات الأوفيس و الـ PDF لكشف الثغرات المستغلة (Exploits).
 
 ---
 
-<p align="center">
-  تم تطوير هذا المشروع لتعزيز مفهوم "الأمان كحق أساسي للمستخدم".
-</p>
+## 📊 مركز التوثيق والتقارير (Showcase Assets)
+
+تم تنظيم المستودع ليعكس الشفافية والاحترافية في التوثيق:
+
+| المجلد | المحتوى | الوصف |
+| :--- | :--- | :--- |
+| [**docs/**](docs/) | **Technical Whitepapers** | وثائق معمارية النظام، تصميم قواعد البيانات، ومنطق المحرك الأمني. |
+| [**reports/**](reports/) | **Official Project Reports** | التقارير الأكاديمية والتقنية الشاملة بصيغ PDF و Microsoft Word. |
+| [**assets/**](assets/) | **Visual Brand Assets** | شعارات المشروع وعناصر الهوية البصرية. |
+
+---
+
+## 🛠️ البنية التحتية للمشروع (Tech Stack 2026)
+
+*   **Core**: Android SDK (Targeting API 35+)
+*   **Native Layer**: C++20 with CMake
+*   **AI/ML**: ONNX Runtime Mobile
+*   **Database**: Room Persistence (Encrypted)
+*   **UI/UX**: Material 3 / Glassmorphism
+*   **Architecture**: MVVM (Model-View-ViewModel)
+
+---
+
+## 🔐 معايير الخصوصية (Privacy Standards)
+يلتزم GuardianX بأعلى معايير الخصوصية الرقمية؛ حيث تتم كافة عمليات التحليل الذكي (AI Analysis) وفحص ملفات YARA **محلياً على جهاز المستخدم** دون إرسال بيانات خاصة إلى السحاب، مما يضمن أماناً بنسبة 100% ضد تسريب البيانات.
+
+---
+
+<div align="center">
+  <p><b>GuardianX Pro Project</b> - Securing the Digital Frontier</p>
+  <p>© 2026 GuardianX Security Team. All Rights Reserved.</p>
+</div>
